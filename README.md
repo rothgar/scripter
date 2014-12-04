@@ -60,3 +60,14 @@ chmod +x ./whoami.sh
 ./scriptr ./whoami.sh
 rothgar
 ```
+
+Building
+-----
+
+If you want to build the source you can install go and run
+
+```
+go build scriptr.go
+```
+
+You can also set the owner with `sudo -u USER go build scriptr.go` if you want to save a step.
